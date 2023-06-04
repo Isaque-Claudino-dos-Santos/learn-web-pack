@@ -1,1 +1,1 @@
-console.log('Loaded vendor')
+console.log('vendor/index.ts loaded')
