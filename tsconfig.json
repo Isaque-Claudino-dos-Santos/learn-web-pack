@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "rootDirs": [
+      "./ventor",
+      "./src"
+    ]
+  },
+  "files": ["vendor/index.ts","src/index.ts"],
+  "include": ["vendor/**/*.ts","src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
