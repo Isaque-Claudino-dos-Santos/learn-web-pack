@@ -48,6 +48,9 @@ const config = {
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.jsx', '.js', '...'],
+    alias: {
+      '@Vendor': path.resolve(__dirname, 'vendor'),
+    },
   },
 }
 
